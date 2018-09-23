@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pingpong;
+
+service PingPongPlayer {
+  rpc Play (PlayRequest) returns (PlayReply) {}
+}
+
+message PlayRequest {
+  int64 count = 1;
+}
+
+message PlayReply {
+  int64 count = 1;
+}
