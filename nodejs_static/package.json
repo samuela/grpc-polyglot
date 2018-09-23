@@ -5,5 +5,9 @@
   "devDependencies": {
     "grpc-tools": "^1.6.6",
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.6.1",
+    "grpc": "^1.15.1"
   }
 }
