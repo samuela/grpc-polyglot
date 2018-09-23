@@ -1,0 +1,9 @@
+{
+  "name": "nodejs_static",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "grpc-tools": "^1.6.6",
+    "standard": "^12.0.1"
+  }
+}
