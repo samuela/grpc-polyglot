@@ -11,7 +11,9 @@ function play (call, callback) {
 function main () {
   const server = new grpc.Server()
   server.addService(services.PingPongPlayerService, { play })
-  server.bind('0.0.0.0:50051', grpc.ServerCredentials.createInsecure())
+  const port = '0.0.0.0:50051'
+  server.bind(port, grpc.ServerCredentials.createInsecure())
+  console.log(`Starting server on ${port}...`)
   server.start()
 }
 

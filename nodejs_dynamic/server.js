@@ -23,7 +23,7 @@ function main () {
   server.addService(protoDef.PingPongPlayer.service, { Play })
   const port = '0.0.0.0:50051'
   server.bind(port, grpc.ServerCredentials.createInsecure())
-  console.log(`Starting server at ${port}...`)
+  console.log(`Starting server on ${port}...`)
   server.start()
 }
 
