@@ -1,5 +1,6 @@
 # Python
 
+In the virtualenv,
 ```
-protoc -I../protos --python_out=. --grpc_python_out=. --mypy_out=. ../protos/pingpong.proto
+python -m grpc_tools.protoc -I../protos --python_out=. --grpc_python_out=. ../protos/pingpong.proto
 ```

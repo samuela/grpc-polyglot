@@ -7,9 +7,9 @@ service PingPongPlayer {
 }
 
 message PlayRequest {
-  int64 count = 1;
+  int32 count = 1;
 }
 
 message PlayReply {
-  int64 count = 1;
+  int32 count = 1;
 }
