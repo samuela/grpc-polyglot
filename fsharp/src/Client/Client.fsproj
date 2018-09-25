@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,5 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\__proto__\__proto__.csproj" />
+    <ProjectReference Include="asdfasdf.csproj" />
   </ItemGroup>
 </Project>
