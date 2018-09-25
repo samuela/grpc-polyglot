@@ -1,0 +1,5 @@
+.vs/
+packages/
+src/*/bin/
+src/*/obj/
+src/__proto__/*.cs
