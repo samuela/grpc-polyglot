@@ -1,6 +1,10 @@
 # Python
 
-In the virtualenv,
+In your virtualenv,
 ```
-python -m grpc_tools.protoc -I../protos --python_out=. --grpc_python_out=. ../protos/pingpong.proto
+$ ./build_protos.sh
+$ ./typecheck.sh
 ```
+
+Run `python server.py` to start the server and `python client.py` to run the
+client.
