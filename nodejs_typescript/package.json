@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "google-protobuf": "^3.6.1",
-    "grpc": "^1.15.1"
+    "grpc": "^1.24.9"
   },
   "scripts": {
     "test": "tslint --project ."
